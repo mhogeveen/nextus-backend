@@ -27,5 +27,10 @@
         "wpackagist-plugin/wp-graphql"
       ]
     }
+  },
+  "autoload": {
+    "psr-4": {
+      "NextusBackend\\": "./"
+    }
   }
 }

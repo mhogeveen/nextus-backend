@@ -1,0 +1,31 @@
+{
+  "name": "mhogeveen/nextus-backend",
+  "type": "project",
+  "description": "Back-end WordPress theme for the headless Next.js theme: Nextus.",
+  "authors": [
+    {
+      "name": "Maarten Hogeveen",
+      "email": "mhogeveen94@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    }
+  ],
+  "require": {
+    "wpackagist-plugin/wp-graphql": "1.6.7"
+  },
+  "extra": {
+    "installer-paths": {
+      "./../../plugins/{$name}/": [
+        "wpackagist-plugin/wp-graphql"
+      ]
+    }
+  }
+}

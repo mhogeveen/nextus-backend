@@ -1,0 +1,11 @@
+{
+  "name": "mhogeveen/nextus-backend",
+  "type": "project",
+  "description": "Back-end WordPress theme for the headless Next.js theme: Nextus.",
+  "authors": [
+    {
+      "name": "Maarten Hogeveen",
+      "email": "mhogeveen94@gmail.com"
+    }
+  ],
+}

@@ -1,11 +1,23 @@
-<?php wp_head(); ?>
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
 
-<main>
+<head>
+  <meta charset="<?php bloginfo('charset'); ?>" />
+  <title><?php echo bloginfo('title'); ?></title>
 
-  <h1>
-    <?php echo bloginfo('title'); ?>
-  </h1>
+  <?php wp_head(); ?>
+</head>
 
-</main>
+<body <?php body_class(); ?>>
+  <main>
 
-<?php wp_footer();
+    <h1>
+      <?php echo bloginfo('title'); ?>
+    </h1>
+
+  </main>
+
+  <?php wp_footer(); ?>
+</body>
+
+</html>
